@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+.container input{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.start-icon{
+    color: #ffe400;
+    
+
+}
+
+.start-icon input{
+    display: none;
+}
+
+.start-icon input + label{
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #83838300;
+    cursor: pointer;
+}
+
+.start-icon input:checked + label ~ label{
+    color: #838383;
+}
+
+.start-icon label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
